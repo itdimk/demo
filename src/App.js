@@ -89,7 +89,7 @@ function App() {
             <Stack gap={3}>
 
                 {
-                    transactions.map(d => <TransactionCard amount={d.amount}
+                    transactions.map(d => <TransactionCard userName={d.userName} amount={d.amount}
                                                            comment={d.comment}></TransactionCard>)
                 }
             </Stack>
